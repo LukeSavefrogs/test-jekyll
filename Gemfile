@@ -9,4 +9,5 @@ gem "just-the-docs", "0.4.0.rc4" # currently the latest pre-release
 
 group :jekyll_plugins do
   gem 'jekyll-timeago', '~> 0.13.1'
+  gem "jekyll-default-layout"
 end
