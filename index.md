@@ -1,4 +1,5 @@
 ---
+title: Home Page
 ---
 
 Welcome to My Home Page
