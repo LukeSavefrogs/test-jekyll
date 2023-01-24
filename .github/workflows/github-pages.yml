@@ -11,7 +11,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
   
@@ -34,9 +34,9 @@ jobs:
           provider: 'github'
           token: ${{ secrets.GITHUB_TOKEN }} # It's your Personal Access Token(PAT)
           # repository: ''             # Default is current repository
-          branch: 'gh-pages'         # Default is gh-pages for github provider
-          jekyll_src: './'           # Default is root directory
-          jekyll_cfg: '_config.yml'  # Default is _config.yml
+          # branch: 'gh-pages'         # Default is gh-pages for github provider
+          # jekyll_src: './'           # Default is root directory
+          # jekyll_cfg: '_config.yml'  # Default is _config.yml
           # jekyll_baseurl: ''         # Default is according to _config.yml
           # bundler_ver: '>=0'         # Default is latest bundler version
           # cname: ''                  # Default is to not use a cname
