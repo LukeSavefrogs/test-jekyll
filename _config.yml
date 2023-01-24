@@ -1,6 +1,7 @@
 title: "Jekyll Actions Demo"
 
 # url: https://LukeSavefrogs.github.io/test-jekyll
+baseurl: ./docs/
 
 theme: just-the-docs
 plugins:
